@@ -163,6 +163,54 @@
            <li class="dropdown-item">menu-6</li>
         </ul>
     </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <h1 class="text-center bg-primary p-2 text-white">Bootstrap Collapse</h1>
+    <hr>
+    <hr>
+    <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#test">Paragraph</button>
+    <div class="collapse" id="test">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit reiciendis maiores quo veniam quasi quibusdam, delectus cupiditate alias aliquid tempore officia inventore similique magni autem sit, excepturi officiis aspernatur ad natus consectetur dolores ullam illum! Officia sequi nam praesentium cupiditate architecto eos at quis doloremque odio, perspiciatis pariatur suscipit facere.</p>
+    </div>
+<hr>
+<hr>
+<button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#test1">Paragraph</button>
+<div class="collapse show" id="test1">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit reiciendis maiores quo veniam quasi quibusdam, delectus cupiditate alias aliquid tempore officia inventore similique magni autem sit, excepturi officiis aspernatur ad natus consectetur dolores ullam illum! Officia sequi nam praesentium cupiditate architecto eos at quis doloremque odio, perspiciatis pariatur suscipit facere.</p>
+</div>
+<hr>
+<hr>
+<div id="accordion">
+    <div class="card">
+     <div class="card-header">
+      <a class="btn" data-bs-toggle="collapse" href="#para-1" >Paragraph-1</a>
+</div>
+<div class="card-body collapse show" id="para-1" data-bs-paraent="accordion">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus mollitia ex porro vitae, laudantium harum alias voluptatibus? Iure aliquid excepturi modi blanditiis odit eligendi ab harum voluptate provident minus.
+</p>
+</div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+         <a class="btn" data-bs-toggle="collapse" data-bs-toggle="#para-2" >Paragraph-2</a>
+   </div>
+   <div class="card-body collapse " id="para-1" data-bs-paraent="accordion">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus mollitia ex porro vitae, laudantium harum alias voluptatibus? Iure aliquid excepturi modi blanditiis odit eligendi ab harum voluptate provident minus.
+   </p>
+   </div>
+       </div>
+       <div class="card">
+        <div class="card-header">
+         <a class="btn" data-bs-toggle="collapse" data-bs-toggle="#para-3" >Paragraph-3</a>
+   </div>
+   <div class="card-body collapse" id="para-1" data-bs-paraent="accordion">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus mollitia ex porro vitae, laudantium harum alias voluptatibus? Iure aliquid excepturi modi blanditiis odit eligendi ab harum voluptate provident minus.
+   </p>
+   </div>
+       </div>
+</div>
     <br><br><br><br><br><br><br><br><br><br>
  </div>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
